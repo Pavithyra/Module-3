@@ -4,7 +4,7 @@
 ---
 
 ### AIM  
-To write a Python program that matches a string containing an `'a'` followed by **two to three `'b'` characters** using regular expressions.
+To Write a Python program that matches a string that begins with "a" followed by zero or more b's .
 
 ---
 
@@ -23,7 +23,21 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
+Reg No-212222060174
+Name -Pavithra.S
+
+import re
+str=input()
+pattern='^[a(b*)]+$'
+x=re.search(pattern,str)
+if x:
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
+<img width="884" height="276" alt="image" src="https://github.com/user-attachments/assets/d2af0bbc-122a-4c14-b735-e1996e89352c" />
+
 
 ### RESULT
+Thus a Python program that matches a string that begins with "a" followed by zero or more b's has been successfully implemented.
