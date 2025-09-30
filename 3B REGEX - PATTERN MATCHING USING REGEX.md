@@ -36,6 +36,7 @@ else:
     print("Not matched!")
 ```
 ### OUTPUT
+
 <img width="884" height="276" alt="image" src="https://github.com/user-attachments/assets/d2af0bbc-122a-4c14-b735-e1996e89352c" />
 
 
